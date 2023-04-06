@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Goldpay</title>
+</head>
+<header class="headerc">
+    <div>
+        <a href="index.html">
+            <span class="baslik">
+                Goldpay
+            </span>
+        </a>
+        <span class="skec">
+            Önce giriş yapmalısınız.
+        </span>
+        <span class="hosgeldin">
+            
+        </span>
+        <span class="bakiyegoster">
+            <div class="gosterla">
+
+            </div>
+        </span>
+    </div>
+</header>
+<body>
+    <div class="card-sign2 negative">
+        <div class="kb alert"></div>
+        <div class="kb">
+            E-posta:
+        </div>
+        <div class="kb">
+            <input name="mail" class="mailtxt" type="email" required/>
+        </div>
+        <div class="kb">
+            Kullanıcı Adı:
+        </div>
+        <div class="kb">
+            <input type="text" class="usernametxt" required>
+        </div>
+        <div class="kb">
+            Şifre:
+        </div>
+        <div class="kb">
+            <input type="password" class="passwordtxt" required>
+        </div>
+        <div class="kb">
+            Hesap Kodunuz(Onaylamanız gerekecek!):
+        </div>
+        <div class="kb">
+            <input type="number" class="notxt" required>
+        </div>
+        <div class="kb">
+            <button class="kayitbtn">Kayıt ol</button>
+        </div>
+    </div>
+    <div class="card-signed">
+        <div class="goldalim">
+            <button class="dd goldalbtn">Gold Al</button>
+        </div>
+        <div class="goldsatim">
+            <button class="dd goldsatbtn">Gold Sat</button>
+        </div>
+        <div class="hesabim">
+            <button class="dd hesabimbtn">Hesabım</button>
+        </div>
+        <div class="bakiyem">
+            <button class="dd bakiyembtn">Bakiye İşlemlerim</button>
+        </div>
+    </div>
+    <div class="card-goldal">
+        <div class="down_line"></div>
+        <div class="hepsi goldsiniri">
+            Depo Gold Miktarı : ${goldDeposu}
+        </div>
+        <div class="hepsi kapasite">
+            Sizin Alabileceğiniz Max. Gold Miktarı : ${kapasitesi}
+        </div>
+        <div class="hepsi ">
+            Satın almak istediğiniz gold miktarını seçiniz:
+        </div>
+        <select class="million" name="million" id="million">
+            
+        </select>
+        <button class="istekbtn">İsteği yolla</button>
+        <div class="hepsi bordericin">
+            <div class="fiyat">
+                
+            </div>
+        </div>
+        <button class="onaybtn">Onayla</button>
+    </div>
+    <div class="card-goldsat">
+
+    </div>
+    <div class="card-hesabım">
+
+    </div>
+    <div class="card-bakiye">
+
+    </div>
+    <div class="card-sign">
+            <div class="kb uyari3">Lütfen önce hesap bilgilerinizi giriniz!</div>
+            <div class="kb uyari">Mail adresiniz ya da şifreniz yanlış!</div>
+            <div class="kb uyari2">Lütfen kontrol edip tekrar deneyiniz.</div>
+            <div class="kb emailicin">
+                E-posta Adresiniz:
+            </div>
+            <div class="kb">
+                <input type="email" id="email">
+            </div>
+            <div class="kb sifreicin">
+                Şifreniz:
+            </div>
+            <div class="kb">
+                <input type="password" id="pass">
+            </div>
+            <div class="kb kayitol">
+                <button class="girisbtn">Giriş Yap</button>
+            </div>
+            <div class="kb help sifreunut">
+                <a href="sifreyenile.html">Şifrenizi mi unuttunuz?</a>
+            </div>
+            <div class="kb help kayitet">
+                <a href="kayitol.html">Kayıt olmak mı istiyorsunuz?</a>
+            </div>
+        
+    </div>
+    <div>
+
+    </div>
+    <script src="bakiye.js"></script>
+    <script src="kayitol.js"></script>
+    <script src="app.js"></script>
+    <script src="accounts.js"></script>
+</body>
+</html>

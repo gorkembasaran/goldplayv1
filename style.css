@@ -1,0 +1,319 @@
+header{
+    background-color: rgb(42, 44, 44);
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    padding-top: 25px;
+}
+header:hover {
+    background-color: rgba(208, 219, 214, 0.548);
+    height: 120px;
+    transition: all 0.3s ease;
+}
+header:hover .baslik{
+    color: rgb(67, 70, 70);
+    font-size: 60px;
+    transition: all 0.3s ease;
+}
+header:hover .skec{
+    font-size: 20px;
+    color: rgb(67, 70, 70);
+    transition: all 0.3s ease;
+
+}
+header div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.baslik {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(244, 249, 249);
+    margin-left: 50px;
+}
+.skec {
+    position: absolute;
+    font-size: 15px;
+    opacity: 1;
+    pointer-events: all;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(244, 249, 249);
+    margin-left: 85%;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+.card-sign {
+    position: absolute;
+    background-color: rgb(42, 44, 44);
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 50px;
+    width: 50%;
+    height: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.card-sign:hover {
+    background-color: rgba(42, 44, 44, 0.692);
+    transition: all 0.3s ease;
+}
+.card-sign:hover .emailicin {
+    font-size: 20px;
+}
+.card-sign:hover .sifreicin {
+    font-size: 20px;
+}
+.kb {
+    margin-top: 5px;
+    margin-left: 35%;
+    color: white;
+}
+.kayitbtn {
+    font-size: 12px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    border: solid 1px rgb(76, 78, 74);
+    background-color: rgb(101, 118, 118);
+    margin-top: 20px;
+}
+.girisbtn {
+    font-size: 12px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    border: solid 1px rgb(76, 78, 74);
+    background-color: rgb(101, 118, 118);
+    margin-top: 20px;
+}
+.kayitbtn:hover {
+    font-size: 14px;
+    width: 80px;
+    height: 35px;
+    transition: all 0.3s ease;
+}
+.help {
+    font-size: 15px;
+    margin-top: 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.uyari {
+    color: red;
+    opacity: 0;
+    pointer-events: none;
+}
+.uyari2 {
+    color: red;
+    pointer-events: none;
+    opacity: 0;
+}
+.uyari3 {
+    pointer-events: none;
+    color: red;
+    opacity: 0;
+}
+.hosgeldin {
+    color: rgb(244, 249, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    opacity: 0;
+    margin-right: 5%;
+    pointer-events: none;
+}
+.bakiyegoster{
+    margin-right: 5%;
+    background-color: rgb(10, 96, 23);
+    border: solid white 1px;
+    border-radius: 10px;
+    color: rgb(244, 249, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+    height: 25px;
+    opacity: 0;
+    pointer-events: none;
+}
+.gosterla {
+    margin-left: 8px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+.card-signed {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(42, 44, 44);
+    opacity: 0;
+    pointer-events: none;
+}
+.goldalbtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(77, 80, 80);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 350px;
+    height: 100px;
+}
+.goldsatbtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(77, 80, 80);
+    width: 350px;
+    height: 100px;
+}
+.hesabimbtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(77, 80, 80);
+    width: 350px;
+    height: 100px;
+}
+.bakiyembtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(77, 80, 80);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 350px;
+    height: 100px;
+}
+.dd:hover {
+    background-color: rgb(53, 58, 58);
+}
+input {
+    height: 25px;
+    width: 200px;
+    font-size: 15px;
+}
+.card-goldal {
+    position: absolute;
+    background-color: rgba(208, 219, 214, 0.548);
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: solid 2px rgb(94, 89, 89);
+    width: 50%;
+    height: 700px;
+    opacity: 0;
+    pointer-events: none;
+}
+.hepsi {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.million {
+    background-color: rgba(0, 0, 0, 0.53);
+    color: rgba(255, 255, 255, 0.482);
+    margin-top: 2%;
+    margin-left: 10%;
+    padding-left: 2%;
+    font-size: 20px;
+    width: 50%;
+    height: 5%;
+}
+.istekbtn {
+    color: rgba(255, 255, 255, 0.482);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(81, 248, 10, 0.271);
+    border-radius: 15px;
+    border: solid 1px rgba(35, 61, 57, 0.353);
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 25%;
+    height: 5%;
+}
+.istekbtn:hover {
+    background-color: rgba(81, 248, 10, 0.133);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 26%;
+    transition: all 0.3s ease;
+    height: 6%;
+}
+.onaybtn {
+    color: rgba(255, 255, 255, 0.482);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(81, 248, 10, 0.271);
+    border-radius: 15px;
+    border: solid 1px rgba(35, 61, 57, 0.353);
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 25%;
+    height: 5%;
+    opacity: 0;
+    pointer-events: none;
+}
+.onaybtn:hover {
+    background-color: rgba(81, 248, 10, 0.133);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 26%;
+    transition: all 0.3s ease;
+    height: 6%;
+}
+.bordericin {
+    opacity: 0;
+    pointer-events: none;
+    width: 60%;
+    height: 4%;
+    border: solid 1px rgba(35, 61, 57, 0.353);
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10%;
+}
+.bordericin:hover {
+    background-color: rgba(114, 180, 146, 0.454);
+}
+.fiyat {
+    color: rgba(120, 244, 37, 0.831);
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.down_line {
+    position: absolute;
+    background-color: white;
+    width: 0;
+    /* 0 - 49.5%;  */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 0;
+    margin-top: 0;
+    height: 5px;
+}
+.alert{
+    color: brown;
+}
+/* bunlar altta kalmalı */
+.negative {
+    pointer-events: none;
+    opacity: 0;
+}
+.positive {
+    pointer-events: all;
+    opacity: 1;
+}
